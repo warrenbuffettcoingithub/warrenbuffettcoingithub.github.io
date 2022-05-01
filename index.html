@@ -31,7 +31,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&amp;display=swap" rel="stylesheet">	
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>
 		 $(document).ready(function(){
@@ -48,7 +54,7 @@
 body{
 background:#101024;
 color:#FFFFFF;
-font-family: 'Archivo', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size:16px;
 font-weight: normal;
 font-style: normal;
@@ -97,17 +103,18 @@ letter-spacing:0em;
 
 .hero-container{
     height: calc(100vh - 76px);
+    min-height: calc(980px - 76px);
 }
 
 
 	
 .hero-container .hero-title{
 font-weight:700;
-font-size:10em;;
+font-size:3em;;
 letter-spacing:0px;
     position:relative;
-color:#FFFFFF;
-    font-family: 'PT Sans Narrow', sans-serif;
+color:#F2BC1C;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
     
@@ -167,9 +174,9 @@ color:#ffffff;
 }
 
 .section-title{
-font-size:4em;
+font-size:3em;
 font-weight:700;
-font-family:'Archivo Narrow';
+font-family:'Roboto Slab';
 /*text-shadow: 10px #2C174F;*/
     color:#F2BC1C !important;
 }
@@ -401,7 +408,7 @@ font-size:1.5em;
 
 .hero-container .hero-title{
 font-weight:900;
-font-size:10em;
+font-size:3em;
 letter-spacing:0px;
 }
     
@@ -425,7 +432,7 @@ padding-right: 0rem !important;
 .navbar-collapse{
 padding-top:76px !important;
 z-index:2 !important;
-background:#FFFFFF !important;
+background:#F2BC1C !important;
 position:fixed !important;
 top:0 !important;
 left:0 !important;
@@ -450,7 +457,7 @@ position:static !important;
 
 .nav-link{
 padding:12px;
-color:#000000 !important;
+color:#101024 !important;
     text-transform:capitalize;
     font-size:1.125em;
     font-weight:500;
@@ -458,13 +465,13 @@ color:#000000 !important;
 
 
 .navbar-toggler-icon{
-background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%23000000;'%3E%3Cpath d='M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z'%3E%3C/path%3E%3C/svg%3E") !important;
+background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%23101024;'%3E%3Cpath d='M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z'%3E%3C/path%3E%3C/svg%3E") !important;
 height:35px;
 width:35px;
 }
     
 .collapsed .navbar-toggler-icon{
-background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%23FFFFFF;'%3E%3Cpath d='M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z'%3E%3C/path%3E%3C/svg%3E") !important;
+background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'%0Awidth='480' height='480'%0AviewBox='0 0 24 24'%0Astyle=' fill:%23F2BC1C;'%3E%3Cpath d='M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z'%3E%3C/path%3E%3C/svg%3E") !important;
     height:35px;
     width:35px;
 }
@@ -485,6 +492,10 @@ text-align:center !important;
 
     .nav-link{
 color:#FFFFFF !important;
+}
+    
+    .nav-link:hover{
+color:#F2BC1C !important;
 }
     
 .navbar-toggler {
@@ -625,7 +636,7 @@ background-repeat: no-repeat;
 <div class="container" data-aos="fade">
 <a class="navbar-brand d-flex flex-row justify-content-center align-items-center" href="/">
     <img class="img-fluid me-2" src="images/front-coin.png" width="40px">
-<h1 style="font-size:1em;font-weight:500;font-family:'PT Sans Narrow',sans-serif;color:#FFFFFF" class="mb-0">$BUFFETT</h1></a>
+<h1 class="d-none" style="font-size:1em;font-weight:500;font-family:'PT Sans Narrow',sans-serif;color:#FFFFFF">$BUFFETT</h1></a>
 <button id="navToggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div class="navbar-collapse collapse" id="navbarTogglerDemo02" style="">
 <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
@@ -650,14 +661,14 @@ background-repeat: no-repeat;
 
 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center" data-aos="fade-right">
 
-<h1 class="hero-title d-none"></h1>
+<h1 class="hero-title text-center">Warren Buffett Coin</h1>
 <img class="img-fluid d-block d-none " src="images/shibam-text.png" style="max-height:70px;">
 <p class="hero-description ">"If you told me you own all of the bitcoin in the world and you offered it to me for $25, I wouldn’t take it because what would I do with it?"</p>
 <div class="d-flex flex-column flex-sm-row mt-3">
 <a type="button" class="buy-button btn btn-primary m-2 " href="https://pancakeswap.finance/swap?outputCurrency=0x97de8229145847599f99c7ab0247bb1391dc6836" target="_blank">Buy On Pancakeswap</a>
 <a type="button" class="telegram-button btn btn-primary m-2" href="https://t.me/warrenbuffettcoin" target="_blank">Join Our Telegram</a>
 </div>
-</div><div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5" data-aos="fade-left" style="position:relative;"><img class="img-fluid hero-img px-3 " src="images/front-coin.png" style="width:100%;"><div class="ratio ratio-1x1">
+</div><div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center py-5" data-aos="fade-left" style="position:relative;"><div class="ratio ratio-1x1">
  <div id="coin">
   <article class="back"></article>
     <article class="middle"></article>
@@ -752,26 +763,21 @@ background-repeat: no-repeat;
 </div>
 <div class="row mb-4">
 
-<div class="col-12 col-lg-4 mb-4">
+<div class="col-12 col-lg-4 mb-4 ms-auto">
 <div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade">
-<span class="tax-title text-center mb-4">1%</span>
-<span class="tax-title-2 text-center mb-2">Liquidity Pool</span><span class="tax-description text-center">1% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
+<span class="tax-title text-center mb-4">3%</span>
+<span class="tax-title-2 text-center mb-2">Liquidity Pool</span><span class="tax-description text-center">3% of every transaction is transformed into liquidity. It's automatic and helps create a price floor.</span>
 </div>
 </div>
 
-<div class="col-12 col-lg-4 mb-4">
+<div class="col-12 col-lg-4 mb-4 me-auto">
 <div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade">
-<span class="tax-title text-center mb-4">2%</span>
-<span class="tax-title-2 text-center mb-2">Marketing</span><span class="tax-description text-center">2% of every transaction is taken and will be used for enhancements, operations, and marketing of the project.</span>
+<span class="tax-title text-center mb-4">6%</span>
+<span class="tax-title-2 text-center mb-2">Marketing</span><span class="tax-description text-center">6% of every transaction is taken and will be used for enhancements, operations, and marketing of the project.</span>
 </div>
 </div>
 	
-	<div class="col-12 col-lg-4 mb-4">
-<div class="tax-card h-100 d-flex flex-column justify-content-center align-items-center px-4 py-5 mx-auto" data-aos="fade">
-<span class="tax-title text-center mb-4">2%</span>
-<span class="tax-title-2 text-center mb-2">Charity</span><span class="tax-description text-center">2% of every transaction is taken and will be donated to a charity organization supported by the team.</span>
-</div>
-</div>
+	
 
 
 </div>
